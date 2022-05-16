@@ -46,5 +46,6 @@ class Board:
         for i in range(self.width):
             print(" " + str(i + 1) + " ", end="")
         print()
-
     
+    def getBoard(self):
+        return self.boardArray

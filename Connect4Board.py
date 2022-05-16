@@ -7,7 +7,7 @@ class Connect4Board(Board):
         self.connect4GameState = Connect4State(totalPlayers)
 
     def drop(self, value, col):
-        super().updateBoard(value, self.getBottomEmptyRow(col - 1), col - 1)
+        super().updateBoard(value, self.getBottomEmptyRow(col), col)
 
     def checkWin(self):
         return self.connect4GameState.checkWin(self)
@@ -19,5 +19,4 @@ class Connect4Board(Board):
             if board[row][col] == None:
                 return row
         return -1
-
     

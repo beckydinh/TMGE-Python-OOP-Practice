@@ -1,7 +1,7 @@
 # TMGE-Python-OOP-Practice
 
 # About
-The TMGE is a base code setup intended to simplify the process of developing a tile matching game, which is a game where users interact with tiles, typically with the intention of matching or removing them to win the game. This includes but is not limited to Tetris, Candy Crush, Columns, and others. As a developer, the TMGE can be used as a starting point to creating a game similar to these. 
+This project was done to practice OOP Design using Python as well as TCL for the GUI. The TMGE is a base code setup intended to simplify the process of developing a tile matching game, which is a game where users interact with tiles, typically with the intention of matching or removing them to win the game. This includes but is not limited to Tetris, Candy Crush, Columns, and others. As a developer, the TMGE can be used as a starting point to creating a game similar to these. 
 
 # How To Use
 The TMGE has superclasses with basic functionality encompassed by all tile matching games in each of the classes. For each of the following, the classes should be extended by a more specific subclass (if necessary) to allow for more specificity relative to the game being developed. Not every class or element in the TMGE is discussed in this document, and only the enhancements of the following superclasses is necessary for a new game implementation. 
